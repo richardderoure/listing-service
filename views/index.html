@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GumBay Listing Service</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1> GumBay* </h1>
+        <p class="sub"> *Not affiliated with Gumtree or eBay</p>
+    </header>
+
+    <nav>
+        <!-- <div class="navbar">
+            <h2>This is a navbar!</h2>
+        </div> -->
+    </nav>
+
+    <main>
+        <section class="form-container">
+            <form class="form" method="post" action="/submit" id="form">
+                <div class="input-container">
+                    <label for="item-name" class="input-title">What is your item?</label>
+                    <input type="text" class="inputs" id="item-name" placeholder="e.g. IKEA Table & Chairs" name="item-name">
+                </div>
+                <div class="input-container">
+                    <label for="item-description" class="input-title">Please enter a short description</label>
+                    <textarea maxlength="255" class="inputs" id="item-description" value="message"  name="item-description" 
+                        placeholder="e.g. Table and four chairs, good condition, small scratch on the surface of the table, collection only"></textarea>
+                </div>
+                <div class="input-container">
+                    <label for="item-price" class="input-title">How much are you selling your item for?</label>
+                    <input type="number" class="inputs" id="item-price" placeholder="e.g. £45" name="item-price">
+                </div>
+                <div class="input-container">
+                    <label for="item-location" class="input-title">Where is your selling location?</label>
+                    <input type="text" class="inputs" id="item-location" placeholder="e.g. Stratford, East London" name="item-location">
+                </div>
+                <div class="input-container-submit">
+                    <label for="submit-form" class="input-title">Is all of the information correct?</label>
+                    <input type="submit" id="submit-form" value="Post your listing!">
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

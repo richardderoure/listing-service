@@ -1,0 +1,99 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(230,230,230);
+}
+.form-container{
+    display:flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.inputs{
+    display:flex;
+    height: 2em;
+    width: 50%;
+    background-color: white;
+    margin:1em;
+    font-size:1.2em;
+
+}
+#item-description{
+    height: 10em;
+    border: 1px solid rgb(220,220,220);
+
+}
+
+.input-title{
+    display: flex;
+    text-align: justify;
+    padding:0.5em;
+    font-size: 1.5em;
+    background-color: rgb(240,240,240);
+}
+.input-container{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    border: 1px solid rgb(220,220,220);
+    margin: 1em;
+    background-color: white;
+}
+.input-container-submit{
+    display:flex;
+    flex-direction: column;
+    margin: 1em;
+    width: 100%;
+}
+#submit-form{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(112, 145, 189);
+    color: rgb(240,240,240);
+    font-size: 1.5em;
+    height: 2em;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+.sub{
+    font-size: 1em;
+    text-align:center;
+}
+.listing-container{
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    padding: 0.5em;
+
+}
+#listingName{
+    display: flex;
+    font-size: 2em;
+    margin: 0;
+}
+#listingDescription{
+    display: flex;
+    font-size: 1em;
+    margin: 0;
+
+}
+#listingPrice{
+    display: flex;
+    font-size: 2em;
+    margin: 0;
+
+}
+#listingLocation{
+    display: flex;
+    font-size: 1.5em;
+    margin: 0;
+
+}

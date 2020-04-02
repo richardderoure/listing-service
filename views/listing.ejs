@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GumBay Listing Service</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1> GumBay* </h1>
+        <p class="sub"> *Not affiliated with Gumtree or eBay</p>
+    </header>
+
+    <nav>
+       
+    </nav>
+
+    <main style="display: flex; justify-content: space-evenly;">
+        <div class="listing-container">
+            <img src="https://source.unsplash.com/random/400x300">
+            <p id="listingName"><%= urlObject.itemName%></p>
+            <p id="listingLocation"><%= urlObject.itemLocation %></p>
+            <p id="listingDescription"><%= urlObject.itemDescription %></p>
+            <p id="listingPrice">£<%= urlObject.itemPrice %></p>
+        </div>
+
+        <div class="listing-container">
+            <img src="https://source.unsplash.com/random/400x300">
+            <p id="listingName"><%= urlObject.itemName%></p>
+            <p id="listingLocation"><%= urlObject.itemLocation %></p>
+            <p id="listingDescription"><%= urlObject.itemDescription %></p>
+            <p id="listingPrice">£<%= urlObject.itemPrice %></p>
+        </div>
+
+        <div class="listing-container">
+            <img src="https://source.unsplash.com/random/400x300">
+            <p id="listingName"><%= urlObject.itemName%></p>
+            <p id="listingLocation"><%= urlObject.itemLocation %></p>
+            <p id="listingDescription"><%= urlObject.itemDescription %></p>
+            <p id="listingPrice">£<%= urlObject.itemPrice %></p>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
