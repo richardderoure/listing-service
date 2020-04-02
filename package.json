@@ -1,0 +1,23 @@
+{
+  "name": "listing-service",
+  "version": "1.0.0",
+  "description": "richardderoure",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardderoure/listing-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardderoure/listing-service/issues"
+  },
+  "homepage": "https://github.com/richardderoure/listing-service#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
